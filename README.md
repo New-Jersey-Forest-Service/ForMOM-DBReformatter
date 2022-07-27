@@ -10,3 +10,11 @@ Check out the [wiki page](https://github.com/New-Jersey-Forest-Service/ForMOM/wi
 **Credits**: The actual re-organization process was thought of and developed by Lauren and Courtney, it was only automated by Michael.
 
 
+
+
+## Running
+
+The file to run is DBRebuild_Main.py, you can find more instructions on the github wiki.
+
+There are no dependencies to run this, everything is from the core python modules
+
