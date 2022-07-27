@@ -244,7 +244,7 @@ if __name__ == '__main__':
 	print("WARNING: This file only runs the ID replacement steps.")
 	print("\tIt is automatically run from the main file, so you")
 	print("\tdo not need to run this seperately.")
-	print("\tIt is meant to be run by developers of the program.")
+	print("\tIt is meant to be run by developers for TESTING PURPOSES.")
 	print()
 
 	usr_input = str(input("Do you still wish to continue? (y/n)"))
