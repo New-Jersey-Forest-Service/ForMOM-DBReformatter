@@ -16,5 +16,5 @@ Check out the [wiki page](https://github.com/New-Jersey-Forest-Service/ForMOM/wi
 
 The file to run is DBRebuild_Main.py, you can find more instructions on the github wiki.
 
-There are no dependencies to run this, everything is from the core python modules
+There are no pytohn dependencies, but it Python 3.8+ is recommended.
 
