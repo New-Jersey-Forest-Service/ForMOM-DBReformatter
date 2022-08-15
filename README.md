@@ -69,9 +69,9 @@ Otherwise, they're just pure blocks of sql that get executed.
 Most values are typed (function params and returns). Typing helps for some things,
 but for the dictionaries, the function comments should help the most.
 
-Also, I didn't realize you can actually do static type checking (mypy) until like a week
-ago, so the type hints were meant for my IDE to give autocomplete. If you'd like,
-learn mypy, but the scripts work so I never bothered.
+I didn't realize you can do static type checking until last week, so the type
+hints are for my IDE to give me autocomplete. It should pass a checker like
+mypy, but the script works so I never bothered.
 
 
 
