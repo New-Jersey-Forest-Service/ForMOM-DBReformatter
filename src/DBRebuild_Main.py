@@ -52,13 +52,17 @@ def main():
 	global DB_FILEPATH
 
 	print()
-	err_with_config = lint_config() # Everything is lives in the globals
-	if err_with_config:
-		err_and_exit(err_with_config)
 
 	print("Warning: Running this script will PERMANENTLY CHANGE the file")
 	print(f"\t{DB_FILEPATH}\n")
 	print("Create a backup of it before continuing.\n")
+
+	# All config parameters live in the globals
+	err_with_config = lint_config() 
+	if err_with_config:
+		err_and_exit(err_with_config)
+	print()
+
 	usr_input = str(input("Do you wish to continue? (y/n) "))
 	if (usr_input.strip().lower() != 'y'):
 		print("Ok, exiting")
@@ -122,7 +126,6 @@ def run_script(cur: sqlite3.Cursor, path: str) -> None:
 # Linting the config
 #
 
-# TODO: Warn for missing consecutive years
 def lint_config() -> Optional[str]:
 	'''
 		Returns an error message if there is an error, otherwise None.

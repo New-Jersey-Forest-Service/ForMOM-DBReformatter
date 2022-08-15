@@ -49,7 +49,7 @@ def create_dict_fortype_of_standcn(
 	'''
 	stand_fortype_map: Dict[str, List[int]] = {}
 
-	errdict: Dict[] = {}
+	errdict = {}
 	fortypes_to_split = list(county_split_dict.keys())
 
 	for table_name in tables:

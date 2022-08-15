@@ -4,7 +4,7 @@ DB_NAME = 'FIADB_WY.db'
 INV_YEARS = [2015, 2016, 2017, 2018, 2019, 2020]
 
 # WARNING: This split was made with no regard
-#  to count locations and by a non-forester.
+#  to county locations and by a non-forester.
 #  It was helpful for testing the software, but
 #  should (probably) not be used for actual FVS runs
 COUNTY_SPLIT_DICT = {
