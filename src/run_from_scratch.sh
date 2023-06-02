@@ -3,7 +3,7 @@
 #
 # This is meant for linux (hence .sh)
 
-BACKUP_DB="FIADB_NJ_BACKUP.db"
+BACKUP_DB="SQLite_FIADB_NJ_BACKUP.db"
 ACTUAL_DB="FIADB_NJ.db"
 PY_SCRIPT="DBRebuild_Main.py"
 

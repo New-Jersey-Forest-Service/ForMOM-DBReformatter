@@ -96,6 +96,10 @@ def main():
 	)
 
 	print()
+	print("Making FVS_STANDINIT_PLOT.STAND_ID non-unique")
+	run_script(cur, './nonunique_standid.sql')
+
+	print()
 	print("Doing ID Replace")
 	dbStandID.do_id_replace(cur, COUNTY_SPLIT_DICT)
 
